@@ -1,6 +1,6 @@
 body{
     font-family: 'Balsamiq Sans';
-    padding: 0 30%;
+    padding: 0 28%;
 }
 
 .nav{
@@ -21,14 +21,14 @@ body{
     } 
 
 .izq1, .izq2{
-    padding: 10px;
+    padding: 15px 0 15px 15px;
 }
 
 .sd { border: 1px solid black;
-    margin: 10px;
-    margin-left: 20px;
+    margin: 10px 0 10px 20px;
     padding: 10px;
     align-items: center;
+    text-align: center;
 }
 
 .numerodelikes{background-color: rgb(255, 233, 108);
@@ -39,9 +39,6 @@ font-weight: bold;}
 
 h4{
     font-style: italic;
-}
-
-h5 {font-weight: normal;
 }
 
 .adddefinition{ background-color: lightgreen;
