@@ -1,0 +1,86 @@
+body{
+    font-family: 'Balsamiq Sans';
+    padding: 0 30%;
+}
+
+.nav{
+    background-color:lightgrey;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.buscador{
+    height: 25px;
+    align-items: center;
+}
+
+.is, .ii { border: 1px solid black;
+    margin-top: 10px;
+    
+    } 
+
+.izq1, .izq2{
+    padding: 10px;
+}
+
+.sd { border: 1px solid black;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.numerodelikes{background-color: rgb(255, 233, 108);
+border: 1px solid black;
+padding: 5px 10px;
+box-shadow: 3px 3px 0px 0px black;
+font-weight: bold;}
+
+h4{
+    font-style: italic;
+}
+
+h5 {font-weight: normal;
+}
+
+.adddefinition{ background-color: lightgreen;
+    border: 1px solid black;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 0px 0px black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.ninjacursive{
+    font-style: italic;
+}
+
+.nav{display: flex;
+    flex-direction: row;
+}
+
+.buscador{flex: 1;
+    padding: 5px 10px;
+    margin: 0 80px;
+}
+
+.login {
+    background-color: #4477be;
+    color: white;
+}
+
+.contenedor {display: flex;
+    flex-direction: row;
+    }
+
+.ladoI{
+    flex: 2;}
+
+.ladoD{
+    flex: 1;}    
+
+.is,.ii{display: flex;
+align-items: center;
+}
+
