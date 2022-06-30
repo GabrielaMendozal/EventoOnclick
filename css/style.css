@@ -1,65 +1,20 @@
 body{
     font-family: 'Balsamiq Sans';
-    padding: 0 28%;
+    padding: 0 10%;
 }
 
 .nav{
+    display: flex;
+    flex-direction: row;
     background-color:lightgrey;
     align-items: center;
-    justify-content: center;
-    padding: 10px;
-    
-}
-.buscador{
-    height: 25px;
-    align-items: center;
-}
-
-.is, .ii { border: 1px solid black;
-    margin-top: 10px;
-    
-    } 
-
-.izq1, .izq2{
-    padding: 15px 0 15px 15px;
-}
-
-.sd { border: 1px solid black;
-    margin: 10px 0 10px 20px;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-}
-
-.numerodelikes{background-color: rgb(255, 233, 108);
-border: 1px solid black;
-padding: 5px 10px;
-box-shadow: 3px 3px 0px 0px black;
-font-weight: bold;}
-
-h4{
-    font-style: italic;
-}
-
-.adddefinition{ background-color: lightgreen;
-    border: 1px solid black;
-    padding: 5px 10px;
-    box-shadow: 3px 3px 0px 0px black;
-    font-weight: bold;
+    padding: 1%;
     width: 100%;
 }
 
-.ninjacursive{
-    font-style: italic;
-}
-
-.nav{display: flex;
-    flex-direction: row;
-}
-
-.buscador{flex: 1;
-    padding: 5px 10px;
-    margin: 0 80px;
+.buscador{
+    flex: 1;
+    margin: 5%;
 }
 
 .login {
@@ -67,18 +22,52 @@ h4{
     color: white;
 }
 
-.contenedor {display: flex;
+.contenedor {
+    display: flex;
     flex-direction: row;
-    }
-
-.ladoI{
-    flex: 2;}
-
-.ladoD{
-    flex: 1;}    
-
-.is,.ii{display: flex;
-align-items: center;
 }
 
-/*fin*/
+.ladoI{
+    flex: 2;
+}
+
+.ladoD{
+    flex: 1;
+}
+
+.is, .ii { 
+    border: 1px solid black;
+    margin: 2%;
+    padding: 3%;
+} 
+
+h4{
+    font-style: italic;
+}
+
+.ninjacursive{
+    font-style: italic;
+}
+
+.numerodelikes{
+    background-color: rgb(255, 233, 108);
+    border: 1px solid black;
+    padding: 1% 5%;
+    box-shadow: 3px 3px 0px 0px black;
+    font-weight: bold;
+}
+
+.sd { 
+    border: 1px solid black;
+    margin: 2%;
+    padding: 3%;
+}
+
+.adddefinition{ 
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 1% 5%;
+    box-shadow: 3px 3px 0px 0px black;
+    font-weight: bold;
+    width: 100%;
+}
